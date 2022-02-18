@@ -1,0 +1,25 @@
+.contact-content{
+    height: 100vh;
+    margin-top         : 33px;
+   
+    padding            : 10px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url(../img/party2.jpg);
+    background-repeat: no-repeat;
+    background-size: 80vw;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.6;
+
+    z-index: -1;
+}
+.contact-form{
+    margin-left: 35px;
+    margin-top: 15px;
+}
